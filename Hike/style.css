@@ -1,0 +1,146 @@
+:root{
+  --bg-color: #ffffff;
+  --btn-color: #000000;
+}
+
+body{
+  margin: 20px 30px;
+  background-color:hsla(0, 0%, 50%, 0.26);
+}
+
+a{
+  text-decoration: none;
+}
+
+nav h2{
+  font-size: 13px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.first{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+
+.first a{
+  color: gray;
+}
+
+.second{
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+h2{
+  color: var(--btn-color);
+}
+
+.get{
+  padding: 8px 25px;
+  background-color: var(--btn-color);
+  color: var(--bg-color);
+  border-radius: 30px;
+  font-size: 10px;
+}
+
+.log{
+  color: var(--btn-color);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+section{
+  background-image: url(city.jfif);
+  border-radius: 20px 20px 0 0;
+  /* padding: 100px; */
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: -100px; */
+}
+
+.first-div{
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  background-color: white;
+  padding: 5px;
+}
+
+.first-div h2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 330px;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 1px;
+  padding: 5px 3px;
+}
+
+.second-div{
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  background-color: white;
+  padding: 10px 60px;
+}
+
+.second-div a{
+  padding: 10px 20px;
+  background-color: #000000;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+}
+
+footer{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 25vh;
+}
+
+.profile-card{
+  display: flex;
+  align-items: center; 
+}
+
+.profile-img{
+  width: 80px;
+  margin-right: 5px;
+}
+
+.profile-info h2{
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.profile-info p{
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+}
